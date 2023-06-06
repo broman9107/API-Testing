@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(69, 57, 140);
+}
+
+#name,#number{
+    color: white;
+}
+
+#butto{
+    background-color: white;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+#charNum{
+    width: 10vw;
+    height: 2rem;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
