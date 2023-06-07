@@ -2,7 +2,7 @@ body{
     background-color: rgb(69, 57, 140);
 }
 
-#name,#number{
+#name,#number,#height{
     color: white;
 }
 

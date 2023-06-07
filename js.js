@@ -3,6 +3,7 @@ const number = document.getElementById("number");
 const imgSrc = document.getElementById("imageSrc");
 const charNum = document.getElementById("charNum");
 const button = document.getElementById("butto");
+const height = document.getElementById("height");
 
 button.onclick = () => {
   getAPI();
@@ -31,6 +32,7 @@ function updatePage(data, num){
   console.log(data);
   pokeName.innerHTML = data.name.toUpperCase();
   number.innerHTML = `ID: ${num}`;
+  height.innerHTML = `Move: ${data.moves[0].move.name.toUpperCase()}`
   imgSrc.src = data.sprites.other.home.front_default;
   charNum.value = "";
 }
